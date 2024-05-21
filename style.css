@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+}
+
+div {
+  background-image: url(./imagens/espaco.jpg);
+  width: 100vw; 
+  height: 100vh;
+  position:relative;     
+}
+h1 {
+    padding: 0px 3px;
+    color:lightgray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 1px 3px rgba(138, 204, 216, 0.911);
+    text-align: center;
+}
+
+img {   
+    position: absolute;
+    margin: 0px;
+    top: 50%;
+    left: 50%;   
+    transform: translate(-50%, -50%);
+    max-width: 98%;    
+}
